@@ -1,0 +1,32 @@
+.orders-calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .orders-calendar-header {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-and-orders {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .selected-date-orders {
+    margin-left: 20px;
+  }
+  
+  .selected-date-orders h3 {
+    margin-bottom: 10px;
+  }
+  
+  .selected-date-orders ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .selected-date-orders ul li {
+    margin-bottom: 5px;
+  }
+  

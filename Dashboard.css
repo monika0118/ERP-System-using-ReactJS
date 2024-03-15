@@ -1,0 +1,48 @@
+
+/* Dashboard.css */
+
+.dashboard-container {
+  text-align: center; /* Center-align all content */
+  color: #f15a34;
+}
+
+.title-container {
+  margin-bottom: 20px; /* Add some space below the title */
+
+}
+
+.title-container h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin to ensure title is centered */
+ 
+}
+
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #6ddb7a;
+
+}
+
+.section {
+  background-color: #f60a8c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(94, 8, 233, 0.1);
+  padding: 80px;
+  margin: 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #04f5ad;
+}
+
+.section p {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #c4f511;
+}
